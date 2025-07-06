@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Kode Mono';
+    src: url('/src/assets/KodeMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .custom-kodemono {
+    font-family: 'Kode Mono', serif;
+    font-weight: 400;
+    font-style: normal;
+  }

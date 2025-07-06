@@ -1,0 +1,21 @@
+.floating-icon {
+    position: absolute;
+    pointer-events: none;
+    background: url("/union-1.svg");
+    background-size: cover;
+    animation: animate 6s linear;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      filter: hue-rotate(0);
+    }
+    100% {
+      transform: translate(-50%, -5000%);
+      opacity: 0;
+      filter: hue-rotate(720deg);
+    }
+  }
+  
